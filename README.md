@@ -1,6 +1,5 @@
 # egg-echat
 
-
 <!--
 Description here.
 -->
@@ -21,7 +20,7 @@ $ npm i egg-echat --save
 // {app_root}/config/plugin.js
 exports.echat = {
   enable: true,
-  package: 'egg-echat',
+  package: 'egg-echat'
 };
 ```
 
@@ -29,8 +28,7 @@ exports.echat = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.echat = {
-};
+exports.echat = {};
 ```
 
 see [config/config.default.js](config/config.default.js) for more detail.

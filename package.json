@@ -1,7 +1,7 @@
 {
   "name": "egg-echat",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.0.7",
+  "description": "基于nodejs的企业微信快速开发SDK",
   "eggPlugin": {
     "name": "echat"
   },
@@ -52,12 +52,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-echat.git"
+    "url": "git+https://github.com/Shijf/egg-echat.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/Shijf/egg-echat/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-echat#readme",
+  "homepage": "https://blog.sharef.top/egg-echat",
   "author": "",
   "license": "MIT"
 }
