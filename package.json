@@ -1,6 +1,6 @@
 {
   "name": "egg-echat",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "基于nodejs的企业微信快速开发SDK",
   "eggPlugin": {
     "name": "echat"
@@ -56,6 +56,9 @@
   },
   "bugs": {
     "url": "https://github.com/Shijf/egg-echat/issues"
+  },
+  "publishConfig": {
+     "registry": "https://npm.pkg.github.com/" 
   },
   "homepage": "https://blog.sharef.top/egg-echat",
   "author": "",

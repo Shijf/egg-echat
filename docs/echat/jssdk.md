@@ -45,7 +45,7 @@ const build = await jssdk.buildConfig(jsApiList, beat, debug);
 ```json
 {
   js_config: {
-    appId: 1000177,
+    appId: 'wl3584b9fc00',
     nonceStr: 'Xk5JFQji3e',
     timestamp: 1575253339,
     url: 'http://127.0.0.1:7001/jssdk',
@@ -56,7 +56,7 @@ const build = await jssdk.buildConfig(jsApiList, beat, debug);
   },
   js_agent_config: {
     agentid: 1000177,
-    corpid: 'wl4778b9fc00',
+    corpid: 'wl3584b9fc00',
     nonceStr: 'D8b2W3Gy4i',
     timestamp: 1575253339,
     url: 'http://127.0.0.1:7001/jssdk',
