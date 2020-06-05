@@ -136,12 +136,12 @@ const messenger = echat.message();
 let message = messenger.textMsg(`你的快递已到，请携带工卡前往邮件中心领取。<br>出发前可查看<a href=\"http://echat.ebchina.com\">邮件中心视频实况</a>，聪明避开排队。`);
 
 message.toUser(userid).send(); //发给单个人
-message.toUser([userid01, userid02, ...]).send(); //发给多个人
+message.toUser([userid01, userid02, ...]).send(); //发给多个人（最多1000个人）
 message.toParty(PartyID).send(); //发给单个部门
-message.toParty([PartyID1, PartyID2, ...]).send(); //发给多个部门
+message.toParty([PartyID1, PartyID2, ...]).send(); //发给多个部门 （最多100个部门）
 message.toTag(TagID).send(); //发给单个部门
 message.toTag([TagID1, TagID2, ...]).send(); //发给多个部门
-// 也可以给单（多）个人（部门|标签）一起发送
+// 也可以给单（多）个人（部门|标签（最多100个标签））一起发送
 message.toUser(userid).toParty(PartyID).toTag(TagID)send();
 //发送给当前应用的所有人
 message.toUser('@all').send();
