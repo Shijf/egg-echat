@@ -7,7 +7,7 @@
 ```js
 const echat = await this.ctx.echat();
 
-const messenger = echat.message();
+const messenger = echat.message().messenger;
 ```
 
 消息发送需要设定消息类型，主要类型有 `文本` 、`图片` 、`语音` 、`视频` 、`文件` 、`文本卡片` 、`图文`,下文中括号内对应的是抽象出来的类型方法名称：
