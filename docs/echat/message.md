@@ -18,7 +18,7 @@ const messenger = echat.message().messenger;
 > - 可以支持换行、以及 A 标签，即可打开自定义的网页（可参考示例代码）
 
 ```js
-let content = `你的快递已到，请携带工卡前往邮件中心领取。<br>出发前可查看<a href=\"http://echat.ebchina.com\">邮件中心视频实况</a>，聪明避开排队。`;
+let content = `你的快递已到，请携带工卡前往邮件中心领取。<br>出发前可查看<a href=\"http://xxx.com\">邮件中心视频实况</a>，聪明避开排队。`;
 let message = messenger.textMsg(content);
 ```
 
@@ -133,7 +133,7 @@ const echat = await this.ctx.echat();
 
 const messenger = echat.message();
 
-let message = messenger.textMsg(`你的快递已到，请携带工卡前往邮件中心领取。<br>出发前可查看<a href=\"http://echat.ebchina.com\">邮件中心视频实况</a>，聪明避开排队。`);
+let message = messenger.textMsg(`你的快递已到，请携带工卡前往邮件中心领取。<br>出发前可查看<a href=\"http://xxx.com\">邮件中心视频实况</a>，聪明避开排队。`);
 
 message.toUser(userid).send(); //发给单个人
 message.toUser([userid01, userid02, ...]).send(); //发给多个人（最多1000个人）
