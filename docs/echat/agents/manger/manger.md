@@ -104,7 +104,7 @@ await echat.agents().manger.list();
 
 let data = {
     agentid: 1800454, //必填，若没有则默认为当期的应用id
-    home_url: 'https://www.ebchina.com' //设置（更新）主页连接
+    home_url: 'https://www.your.com' //设置（更新）主页连接
 };
 
 await echat.agents().manger.set(data);
